@@ -1,0 +1,91 @@
+.menue {    
+    border-bottom: solid black 2.5px;
+    position: fixed;
+    padding: 0;
+    height: 65px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    min-width: 1000px;
+}
+
+.menue div{
+    display: flex;
+    place-items: center;
+    width:100%;
+}
+
+.menue div a{
+    font-family:"Open Sans", "Courier New", monospace;
+    height:65px;
+    width:110px;
+    float:left;
+    display: grid;
+    place-items: center;
+}
+
+.menue div a:link {
+    color: rgb(50,50,50);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.menue div a:visited {
+    color: rgb(50,50,50);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.menue div a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: bold;
+    font-weight: bold;
+}
+
+.menue div a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.MasterDiv{
+    height: 100%;
+    margin-top: 75px;
+    padding-bottom: 110px;
+    min-width: 1000px;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+.Footer {
+    border-top: solid black 2.5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 1000px;
+}   
+
+.Footer div{
+    margin: 0px 75px 0px 75px;
+    display: flex;
+    justify-content:space-between;
+    box-sizing: border-box;
+    width:auto;
+    height: 100%;
+}
+
+.SocialMediaIcons {
+    display: flex;
+    justify-content:space-evenly;
+    box-sizing: border-box;
+}
